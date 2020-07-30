@@ -1,0 +1,12 @@
+<div class="principal" *ngIf='show'>
+    <div class="name-bar" [@openCloseName]="isOpen ? 'open' : 'closed'">
+        <div class="container">
+            <p>{{name}}</p>
+        </div>
+    </div>
+    <div class="title-bar" [@openCloseTitle]="isOpen ? 'open' : 'closed'">
+        <div class="container">
+            <p>{{title}}</p>
+        </div>
+    </div>
+</div>

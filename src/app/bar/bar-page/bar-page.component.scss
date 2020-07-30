@@ -1,0 +1,46 @@
+.principal {
+    margin-top: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    height: 140px;
+    width: max-content;
+}
+
+.container {
+    width: max-content;
+}
+
+.name-bar {
+    max-width: max-content;
+    overflow: hidden;
+    border-radius: 7px;
+    height: 80px;
+    background-color: white;
+    margin-left: 15px;
+    transform: skewX(15deg);
+
+    p {
+        color: rgb(40, 25, 90);
+        font-family: "Oxygen", sans-serif;
+        font-size: 65px;
+        transform: skewX(-15deg);
+        margin: 20px 20px;
+    }
+}
+
+.title-bar {
+    max-width: max-content;
+    overflow: hidden;
+    border-radius: 2px;
+    height: 40px;
+    background-color: rgb(252, 202, 36);
+    margin-top: -7px;
+    margin-left: 40px;
+    transform: skewX(15deg);
+
+    p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 35px;
+        transform: skewX(-15deg);
+        margin: 10px;
+    }
+}

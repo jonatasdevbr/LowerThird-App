@@ -1,0 +1,17 @@
+<div class="container">
+    <form [formGroup]="form">
+        <mat-form-field appearance="fill">
+            <mat-label>NOME</mat-label>
+            <input matInput formControlName="name">
+        </mat-form-field>
+        <br>
+        <br>
+        <mat-form-field appearance="fill">
+            <mat-label>TÍTULO</mat-label>
+            <input matInput formControlName="title">
+        </mat-form-field>
+        <br>
+        <button mat-raised-button color="warn" (click)="open()">EXIBIR</button>
+        <button mat-raised-button color="primary" (click)="close()">OCULTAR</button>
+    </form>
+</div>
